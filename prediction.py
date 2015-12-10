@@ -1,3 +1,6 @@
+# Here is the script that is being run on AWS in order for our prediction app to work
+# the script uses flask in order to connect to the website and is running at all times on the virtual machine
+
 import numpy as np
 import scipy as sp
 import matplotlib as mpl
