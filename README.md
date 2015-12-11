@@ -1,28 +1,20 @@
 # Uber Surge Pricing
-Our project notebook contains our exploratory data analysis as well as our model. 
+ProcessBook_v4.ipynb is the process book that we are turning in.
+output3.csv is the file that has the queried data saved into it.
+prediction.py is not to be ran on from the repository, but instead this is the python script that we are running
+	on an AWS machine to make the "app" portion of the website work. Thought it would be interesting to include
+	just for reference
 
-Python libraries we used:
+non-standard Python libraries used: plotly and flask.
 
-import numpy as np
-import scipy as sp
-import matplotlib as mpl
-import matplotlib.cm as cm
-import matplotlib.pyplot as plt
-import pandas as pd
-pd.set_option('display.width', 500)
-pd.set_option('display.max_columns', 100)
-pd.set_option('display.notebook_repr_html', True)
-import seaborn as sns
-sns.set_style("whitegrid")
-sns.set_context("poster")
-import csv
-import plotly
-import plotly.plotly as py
-import plotly.graph_objs as go
-py.sign_in('dillontiner', 'cgk2wkqmms')
+plotly uses an api key which is included in the header. When you are running the script, this should work, you can only
+	make so many requests in an hour,however, so the code may break.
 
-Note: A plotly account with a unique user ID and API key is needed to see the graphs. 
+Note: A plotly account with a unique user ID and API key is needed to see the graphs. Read the note in the Process Book in
+	order to view some of the graphs in the process book, they do not show up on the GitHub Website version of the Process Book.
 
-Project Website:
+Project Website: http://dillontiner.github.io/CS109Site/
+	**USE CHROME to view website. It works well in chrome, however, other websites are not optimized and the app may not work.
+	**The website code (very extensive) is on dilliontiner's respository CS109Site (url: https://github.com/dillontiner/CS109Site)
 
 Screencast Video:
