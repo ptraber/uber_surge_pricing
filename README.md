@@ -17,4 +17,4 @@ Project Website: http://dillontiner.github.io/CS109Site/
 	**USE CHROME to view website. It works well in chrome, however, other websites are not optimized and the app may not work.
 	**The website code (very extensive) is on dilliontiner's respository CS109Site (url: https://github.com/dillontiner/CS109Site)
 
-Screencast Video:
+Screencast Video: https://www.youtube.com/watch?v=8SyPUCPf7w0
